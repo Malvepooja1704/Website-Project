@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
+/*-- Body Reset --*/
+body {
+  
+  font-family: 'Poppins', sans-serif;
+  color: #616971;
+}
+
+/*---Top Bar----*/
+.top-bar{
+  background: #6d6a6da6;
+  height: 2.8rem;
+  padding: .5rem 0;
+}
+.top-bar a{
+  color: white;
+  text-decoration: none;
+  font-size: 1.1rem;
+}
+.social-icon{
+  padding: .5rem;
+}
+
+/*----Navigation Bar-----*/
+.navbar-brand img{
+  height: 3.5rem;
+}
+
+.navbar{
+  height: 4.5rem;
+  font-size: 1.15rem;
+  font-weight: 600;
+  letter-spacing: .1rem;
+  box-shadow: 0 .5rem .5rem rgba(0,0,0,.1);
+  z-index: 1;
+}
+
+.nav-item{
+  padding: .5rem;
+}
+.nav-link{
+  color: #5e0732!important;
+  
+}
+
+.nav-link.active,
+.nav-link:hover{
+  color: #f30c65!important;
+}
+
+
+/*----Carousel image slider-----*/
+#carousel{
+  box-shadow: 0 1rem 1rem rgba(0,0,0,.3);
+}
+
+.carousel-inner{
+  max-height: 36rem!important;
+}
+
+/*----Carousel caption------*/
+.carousel-caption{
+  position: absolute;
+  top: 45%;
+  transform: translateY(-50%);
+  text-transform: uppercase;
+}
+
+.bg-custom{
+  background-color: rgba(0,0,0,.5);
+  color: whitesmoke;
+  border-radius: 1rem;
+}
+
+.carousel-caption h1{
+  font-size: 3.8rem;
+  text-shadow: .1rem .1rem .3rem rgba(0,0,0,.1);
+  font-weight: 500;
+}
+
+.border-light{
+  border-top: .2rem solid white!important;
+}
+
+.carousel-caption h3{
+  font-size: 2.2rem;
+  text-shadow: .1rem .1rem .2rem rgba(0,0,0,.1);
+}
+.btn-primary{
+  background-color: #4981b3;
+  border: .1rem solid #4981b3;
+}
+.btn-lg{
+  border-radius: 0;
+  text-transform: uppercase;
+  font-size: 1rem;
+  border-width: medium;
+}
+
+/*----Main Page Heading-----*/
+
+/*----Two Column Section-----*/
+
+
+
+/*----Footer-----*/
+footer{
+  background-color: #3f3f3f;
+  color: #d5d5d5;
+  padding-top: 2rem;
+}
+
+hr.light{
+  border-top: .1rem solid #d5d5d5;
+  width: 75%;
+  margin-top: .8rem;
+  margin-bottom: 1 rem;
+}
+footer a{
+  color: #d5d5d5;
+}
+hr.light-100{
+  border-top: .1rem solid #d5d5d5;
+  width: 100%;
+  margin-top: .8rem;
+  margin-bottom: 1 rem;
+}
+
+
+
+
+
+
+
+/*---Media Queries --*/
+@media (max-width: 992px) {
+
+  .carousel-caption h1{
+    font-size: 2.8rem;
+  }  
+
+  .carousel-caption h3{
+    font-size: 1.8rem;
+  }
+}
+@media (max-width: 768px) {
+  
+  .carousel-caption h1{
+    font-size: 2.5rem;
+  }  
+
+  .carousel-caption h3{
+    font-size: 1.5rem;
+  }
+  .border-light{
+    border-top: .1rem solid white!important;
+  }
+  
+  .btn-lg{  
+    font-size: 0.85rem;
+  }
+  .carousel-caption{
+    top: 40%;
+  }
+  
+  
+}
+@media (max-width: 576px) {
+  
+  .carousel-caption h1{
+    font-size: 1.8rem;
+  }  
+
+  .carousel-caption h3{
+    font-size: 1rem;
+  }
+  
+  .btn-lg{  
+    font-size: 0.7rem;
+  }
+
+  .carousel-caption{
+    top: 35%;
+  }
+
+}
+
+
+
+
+
+
+
+
+
+/*
+Extra small (xs) devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap
+
+Small (sm) devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+Medium (md) devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+Large (lg) devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+Extra (xl) large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+*/
+
+

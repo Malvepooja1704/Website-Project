@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
+/*-- Body Reset --*/
+body {
+  
+  font-family: 'Poppins', sans-serif;
+  color: #616971;
+}
+
+/*---Top Bar----*/
+.top-bar{
+  background: #6d6a6da6;
+  height: 2.8rem;
+  padding: .5rem 0;
+}
+.top-bar a{
+  color: white;
+  text-decoration: none;
+  font-size: 1.1rem;
+}
+.social-icon{
+  padding: .5rem;
+}
+
+/*----Navigation Bar-----*/
+.navbar-brand img{
+  height: 3.5rem;
+}
+
+.navbar{
+  height: 4.5rem;
+  font-size: 1.15rem;
+  font-weight: 600;
+  letter-spacing: .1rem;
+  box-shadow: 0 .5rem .5rem rgba(0,0,0,.1);
+  z-index: 1;
+}
+
+.nav-item{
+  padding: .5rem;
+}
+.nav-link{
+  color: #5e0732!important;
+  
+}
+
+.nav-link.active,
+.nav-link:hover{
+  color: #f30c65!important;
+}
+
+.bg-image{
+  background-color: #e84393;
+  background-image: linear-gradient(315deg, #e84393 0%, #000000 74%);
+    height: 35vh;
+    
+  }
+  .bg-image h1{
+    text-align: left;
+    padding-top: 4rem;
+    font-size: 4rem;
+    font-weight: 600;
+  }
+
+/*----Card-----*/
+.card{
+  box-shadow: 10px 10px 5px grey;
+  transition: transform .3s;
+
+  background-color: #ffa69e;
+  background-image: linear-gradient(315deg, #ffa69e 0%, #5d4954 74%);
+}  
+.card:hover{
+  transform: scale(1.2); 
+}
+
+
+
+/*----Footer-----*/
+footer{
+    background-color: #3f3f3f;
+    color: #d5d5d5;
+    padding-top: 2rem;
+  }
+  
+  hr.light{
+    border-top: .1rem solid #d5d5d5;
+    width: 75%;
+    margin-top: .8rem;
+    margin-bottom: 1 rem;
+  }
+  footer a{
+    color: #d5d5d5;
+  }
+  hr.light-100{
+    border-top: .1rem solid #d5d5d5;
+    width: 100%;
+    margin-top: .8rem;
+    margin-bottom: 1 rem;
+  }
+
+
+
+  
+
+/*---Media Queries --*/
+@media (max-width: 992px) {
+}
+@media (max-width: 768px) {
+
+}
+@media (max-width: 576px) {
+
+}
